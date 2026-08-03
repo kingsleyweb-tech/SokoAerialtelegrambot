@@ -9,6 +9,11 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json()); // Parse incoming JSON requests
 
+// Root landing page
+app.get('/', (req: Request, res: Response) => {
+  res.status(200).send("<h1>Soko Aerial Telegram Bot is active and running!</h1><p>Visit <a href='/health'>/health</a> for the system status check.</p>");
+});
+
 // Health check endpoint — hosting platforms use this to verify the app is alive
 app.get('/health', (req: Request, res: Response) => {
   res.status(200).json({
