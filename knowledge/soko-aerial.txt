@@ -1,0 +1,311 @@
+## QUICK LINKS & CONTACT CHANNELS
+- Official Website: https://sokoaerial.com
+- Contact Page: https://sokoaerial.com/contact/
+- Training Registration: https://bit.ly/sokoaerial
+- Email Support / Contact Form: https://sokoaerial.com/contact/
+- Social Channels: Facebook (https://facebook.com/sokoaerial), LinkedIn (https://linkedin.com/company/sokoaerial), X/Twitter (https://twitter.com/SokoAerial), Instagram (https://www.instagram.com/sokoaerialgroup/), YouTube (https://www.youtube.com/c/SokoAerial)
+
+---
+
+## 1. COMPANY OVERVIEW
+
+**Name:** Soko Aerial (also styled "SoKo Aerial")
+**Location:** Burma Camp,Accra, Ghana
+**Tagline:** "Aerial Imaging In Africa"
+**Founded:** 2017
+**Founder:** Ing. Kofi Owusu-Adusei
+**CEO:** Ing. Kofi Owusu-Adusei
+**What they do:** SoKo Aerial is an end-to-end commercial enterprise specializing in precision aerial inspections and survey data. They use highly sophisticated Unmanned Aerial Vehicles (UAVs/drones) to collect aerial data, then process, analyze, and distribute that data to suit clients' needs across various industries.
+
+**Vision:** To become the premier service provider using UAV systems to support industry and security within the West Africa (WA) Region and achieve optimum goals.
+
+**Mission:** To aggressively penetrate and introduce UAV systems to support industry and security in West Africa by providing specialized aerial solutions that directly impact businesses and communities.
+
+**Strategic Partners:**
+- MATE Engineering Limited
+- RECS Geomatics Consult
+- Signal Training School – Ghana Armed Forces
+
+The company states it has developed proven solutions in construction, survey, railway, and infrastructure sectors in partnership with industry experts, and has carried out pilot projects to explore UAV solutions that improve safety and efficiency.
+
+---
+
+## 2. INDUSTRIES / SERVICES OFFERED
+
+### Mining
+Aerial data used to mitigate risk and maximize ROI by replacing hazardous manual inspections. Capabilities:
+- Equipment & Operation Monitoring
+- Geotechnical & Environmental Monitoring
+- Security and Surveillance
+- Incident Emergency Response
+- Digital Terrain Modeling
+- Construction Management
+[Full PDF available](https://sokoaerial.com/wp-content/uploads/2021/03/Mining.pdf)
+
+### Disaster Data Management
+A data collection and management system for agencies managing disasters, covering 3 activity stages:
+- Pre-disaster activities
+- Activities during disaster management
+- Post-disaster activities
+Services provided at each stage: photogrammetry, orthophotos for infrastructure, drone data analysis, and aerial imagery — used to help plan/redesign flood-prone areas and safeguard life/property during the rainy season.
+[PDF available](https://sokoaerial.com/wp-content/uploads/2021/03/Disaster-Data-Management.pdf)
+
+### Infrastructure Inspection
+Drone-based inspection for industrial plants, factories, workshop buildings, elevated tanks, bridges, wind turbines, pylons, technical building infrastructure, leisure/tourism and sports facilities. Benefits:
+- Improves safety (no need to put people in unsafe situations)
+- Saves time and reduces costs
+- Live video feed viewing
+- Operator can be directed to specific areas of interest
+- Video playback for defect/abnormality analysis
+- Transportable and flying within minutes
+[Full PDF available](https://sokoaerial.com/wp-content/uploads/2021/03/infrastructure-inspection-using-UAV.pdf)
+
+### Agriculture
+Drones used to increase crop production and monitor crop growth via advanced sensors/digital imaging. Capabilities:
+- Retrieve Aerial View of Fields
+- Multispectral Images
+- Apply Insecticides
+[Full PDF available](https://sokoaerial.com/wp-content/uploads/2021/03/Agriculture.pdf)
+
+### Security
+Drones provide aerial surveillance beyond traditional ground-based methods, offering wide field of view, discreet/efficient coverage, and sensors that detect what the human eye cannot. Capabilities:
+- Reconnaissance
+- Situational Awareness
+- Target Acquisition
+- Crowd Monitoring
+[Full PDF available](https://sokoaerial.com/wp-content/uploads/2021/03/Aerial-Surveillance-and-Security.pdf)
+
+### Survey & Mapping
+Fast, accurate, and cost-effective mapping using UAV survey technology, replacing expensive/time-consuming/dangerous traditional methods. Benefits:
+- Fast & Accurate Data Acquisition
+- Cost-effectiveness
+- Digital web platform
+- Boost in productivity
+[Full PDF available](https://sokoaerial.com/wp-content/uploads/2021/03/Suvey-Mapping.pdf)
+
+### Architecture, Engineering & Construction (AEC)
+Drones assist with site inspection, planning, and health & safety by providing a bird's-eye view of construction sites. Used to quickly survey job sites and build maps, reducing need for human resources, heavy machinery, and expensive surveying tools — completing projects in less time, at lower cost, with more accurate results.
+[Full PDF available](https://sokoaerial.com/wp-content/uploads/2021/03/Drone-Technology-in-Architecture.pdf)
+
+---
+
+## 3. INTERNAL DEPARTMENTS
+
+### Commercial Aerial Data Unit (CADU)
+**Mission:** Provide all needed drone data solutions ranging from mapping, inspection, and others.
+**Drone Fleet & Data Processing System:**
+- Arace fixed wing
+- DJI Mavic Pro drones
+- Arace Evo Multicopter
+- 2 desktop processing machines
+
+### Unmanned Aerial System Research Lab (UASRL)
+**Mission:** Serve as a hub for drone-related activities; provides drones, sensors, equipment, software, and knowledge to support high-quality research and teaching across civil, military, and university sectors.
+**Drone Service and Maintenance Centre:** Drone repair service, software upgrades, configuration, and testing.
+**Research Projects:**
+- Designing/developing fixed-wing training models
+- Designing/developing multi-copter training models
+- Developing aero model lab tools and kits
+
+**Featured Project — AHUODEN:** A high-altitude surveillance drone modeled after the American Global Hawk drone. Aims to address the need for high-endurance, high-altitude drones for a wide range of missions. Status: completed all ground tests successfully, awaiting maiden flight. It will be used to test flight control software and onboard sensors/instruments. A more advanced, higher-endurance version is currently in the design phase.
+
+### Education and Training Unit (ENTU)
+**Mission:** Develop state-of-the-art training materials and study guides for educational support of the UAV industry in Ghana and beyond.
+**Current Programs:**
+- Drone piloting and control system
+- Drone data processing and GIS
+**Upcoming Programs:**
+- Certificate of Science in Remotely Piloted Aircraft Systems Engineering
+
+### Communication Engineering and Software Unit (CESU)
+**Mission:** Develop ground control stations, drone tracking systems, and counter-drone technology support solutions for both private and military use.
+**Research Projects:**
+- Offline tracking system for flyaway drones
+- HIL (Hardware-in-the-Loop) ground control station for pilot training and simulation
+- QR Code ID card system
+- Pizza ordering and delivery app
+
+---
+
+## 4. TRAINING PROGRAMS
+
+**Centre for Unmanned Aerial Vehicles Research and Education (CUAVRE):** A learning center focused on teaching new pilots the technology, with emphasis on piloting, data acquisition, data analysis, GIS, and engineering/design.
+
+**Drone Pilot Training:** Designed for corporations building pilot teams and individuals seeking careers in drone applications. Offered via online learning and on-site, hands-on flight training.
+
+**Training Objectives:**
+- **Safety** – Safe flying and emergency response
+- **Solution** – Understanding commercial/industrial solutions and latest drone technology
+- **Operation** – Learning piloting apps, data acquisition, and processing
+- **Maintenance** – Standard equipment maintenance and operations
+- **Mission** – Using drones to capture mission data for valuable insights
+
+**On-site training:** Live demonstration, comprehensive flight operations, equipment maintenance, and emergency response practice — held at the center or at a client's specified venue.
+
+**Online training:** Unlimited access to study materials plus on-demand virtual classes.
+
+**Registration:** [Register Now](https://bit.ly/sokoaerial)
+
+---
+
+## 5. PROJECTS / NEWS (from the blog)
+
+- **DTC SDR MESH RADIO / AERIUS UAS & SIGTRACK** — published July 20, 2026
+- **Ghana Navy Simulation Exercise** — published August 25, 2022
+- **DJI Drone LiDAR: Introducing Livox and Avia** — published December 2, 2020
+- **DJI's Agriculture Drone: AGRAS T20 for Agriculture Spraying** — published December 2, 2020
+
+(Full articles are available on the site's News category; only headlines/dates were extracted here.)
+
+---
+
+## 6. SHOP
+
+The Shop page (https://sokoaerial.com/shop/) exists on the site but currently displays no product listings.
+
+---
+
+## 7. CONTACT INFORMATION
+
+**Phone:**
+- +233 30 277 6296
+- +233 24 324 9309
+- +233 24 617 9744
+
+**Email:** Listed on site as a protected/encoded email link (address itself not visible in extracted text — direct users to the Contact page: https://sokoaerial.com/contact/)
+
+**Location:** Supply Bus Stop, Burma Camp, Accra, Ghana
+(Map listing also references: "Signal Training School & Soko Aerial Centre For Unmanned Aerial Vehicle Education And Research")
+
+**Social Media:**
+- Facebook: https://facebook.com/sokoaerial
+- LinkedIn: https://linkedin.com/company/sokoaerial
+- X (Twitter): https://twitter.com/SokoAerial
+- Instagram: https://www.instagram.com/sokoaerialgroup/
+- YouTube: https://www.youtube.com/c/SokoAerial
+
+**Website:** https://sokoaerial.com
+
+---
+
+## 8. FAQs
+
+> Note: Soko Aerial's website does not have a dedicated FAQ page. The questions and answers below were generated by rephrasing the factual content already extracted from the site (sections 1–7) into Q&A format, for chatbot convenience. No new facts were added.
+
+**Q: What is Soko Aerial?**
+A: Soko Aerial is a commercial enterprise established in 2017 that specializes in precision aerial inspections and survey data using Unmanned Aerial Vehicles (UAVs/drones). It collects, processes, analyzes, and distributes aerial data to suit clients' needs across various industries. Its tagline is "Aerial Imaging In Africa."
+
+**Q: Where is Soko Aerial located?**
+A: Supply Bus Stop, Burma Camp, Accra, Ghana.
+
+**Q: How can I contact Soko Aerial?**
+A: You can call +233 30 277 6296, +233 24 324 9309, or +233 24 617 9744. You can also reach out via the contact form at https://sokoaerial.com/contact/ or through social media (Facebook, LinkedIn, X, Instagram, YouTube).
+
+**Q: What is Soko Aerial's mission?**
+A: To aggressively penetrate and introduce UAV systems to support industry and security in West Africa by providing specialized aerial solutions that directly impact businesses and communities.
+
+**Q: What is Soko Aerial's vision?**
+A: To become the premier service provider using UAV systems to support industry and security within the West Africa region.
+
+**Q: What industries does Soko Aerial serve?**
+A: Mining, Disaster Data Management, Infrastructure Inspection, Agriculture, Security, Survey & Mapping, and Architecture, Engineering & Construction (AEC).
+
+**Q: What drone services does Soko Aerial offer for mining?**
+A: Equipment & operation monitoring, geotechnical & environmental monitoring, security and surveillance, incident emergency response, digital terrain modeling, and construction management.
+
+**Q: How does Soko Aerial help with disaster management?**
+A: It provides aerial data solutions across all three stages of disaster management — pre-disaster, during-disaster, and post-disaster — including photogrammetry, orthophotos, drone data analysis, and aerial imagery to help agencies plan and manage flood-prone areas.
+
+**Q: What can drones do for infrastructure inspection?**
+A: They allow safe, fast, and accurate inspection of plants, factories, elevated tanks, bridges, wind turbines, pylons, and other structures — improving safety, saving time and cost, providing live video feeds, and enabling instant defect analysis.
+
+**Q: How is drone technology used in agriculture?**
+A: To retrieve aerial views of fields, capture multispectral images, and apply insecticides — helping farmers boost yields and improve efficiency.
+
+**Q: What security services does Soko Aerial provide?**
+A: Reconnaissance, situational awareness, target acquisition, and crowd monitoring using drones equipped with advanced cameras and sensors.
+
+**Q: What survey and mapping services are available?**
+A: Fast, accurate, and cost-effective aerial data acquisition for creating digital terrain models and base maps, with benefits including a digital web platform and productivity gains.
+
+**Q: How can drones help with architecture, engineering, and construction (AEC) projects?**
+A: Drones support site inspection, planning, and health & safety by providing an aerial vantage point for surveying job sites and building maps — reducing the need for manpower, heavy machinery, and expensive surveying tools.
+
+**Q: What internal departments does Soko Aerial have?**
+A: The Commercial Aerial Data Unit (CADU), the Unmanned Aerial System Research Lab (UASRL), the Education and Training Unit (ENTU), and the Communication Engineering and Software Unit (CESU).
+
+**Q: What does the Commercial Aerial Data Unit (CADU) do?**
+A: It provides drone data solutions ranging from mapping to inspection, using a fleet that includes an Arace fixed wing, DJI Mavic Pro drones, an Arace Evo Multicopter, and two desktop processing machines.
+
+**Q: What is the Unmanned Aerial System Research Lab (UASRL)?**
+A: It's a hub for drone-related research and teaching activities, offering a drone service and maintenance centre plus research projects such as fixed-wing and multi-copter training model development.
+
+**Q: What is the AHUODEN drone project?**
+A: AHUODEN is a high-altitude surveillance drone modeled after the American Global Hawk. It has completed all ground tests and is awaiting its maiden flight. It will be used to test flight control software and onboard sensors, and a more advanced, higher-endurance version is in the design phase.
+
+**Q: What does the Education and Training Unit (ENTU) do?**
+A: It develops training materials and study guides for the UAV industry. Current programs cover drone piloting/control systems and drone data processing/GIS. An upcoming program is a Certificate of Science in Remotely Piloted Aircraft Systems Engineering.
+
+**Q: What does the Communication Engineering and Software Unit (CESU) work on?**
+A: Ground control stations, drone tracking systems, and counter-drone technology for private and military use — including an offline tracking system for flyaway drones, a HIL ground control station for pilot training, a QR code ID card system, and a pizza ordering/delivery app.
+
+**Q: Does Soko Aerial offer drone pilot training?**
+A: Yes. Training is delivered through the Centre for Unmanned Aerial Vehicles Research and Education (CUAVRE), covering piloting, data acquisition, data analysis, GIS, and engineering/design — available both on-site and online.
+
+**Q: What topics are covered in drone pilot training?**
+A: Safety (safe flying and emergency response), Solution (commercial/industrial applications and drone tech), Operation (piloting apps and data acquisition/processing), Maintenance (equipment upkeep), and Mission (using drones to capture valuable mission data).
+
+**Q: What's the difference between on-site and online training?**
+A: On-site training includes live demonstrations, flight operations, equipment maintenance, and emergency response practice at the center or a client's venue. Online training gives unlimited access to study materials plus on-demand virtual classes.
+
+**Q: How do I register for training?**
+A: Register at https://bit.ly/sokoaerial.
+
+**Q: Does Soko Aerial sell drone products online?**
+A: The website has a Shop page, but it currently has no products listed.
+
+**Q: How much do Soko Aerial's services cost?**
+A: Pricing is not listed on the website. Please contact Soko Aerial directly at +233 30 277 6296 / +233 24 324 9309 / +233 24 617 9744, or via https://sokoaerial.com/contact/, for a quote.
+
+**Q: Who are Soko Aerial's strategic partners?**
+A: MATE Engineering Limited, RECS Geomatics Consult, and the Signal Training School – Ghana Armed Forces.
+
+**Q: Does Soko Aerial work with the military?**
+A: Yes — it partners with the Signal Training School of the Ghana Armed Forces, and its Communication Engineering and Software Unit develops solutions for both private and military applications. The company has also been featured in news related to a Ghana Navy simulation exercise.
+
+**Q: Does Soko Aerial follow drone industry news and technology?**
+A: Yes, the site's blog covers topics like DJI drone LiDAR technology, agricultural spraying drones, and radio/tracking systems — see the News section at https://sokoaerial.com/category/news/.
+
+---
+
+## 9. QUICK-REFERENCE SITE MAP (for bot navigation/linking)
+
+| Section | URL |
+|---|---|
+| Home | https://sokoaerial.com/ |
+| About Us | https://sokoaerial.com/about-us/ |
+| Mining | https://sokoaerial.com/mining/ |
+| Disaster Data Management | https://sokoaerial.com/disaster-data-management/ |
+| Infrastructure Inspection | https://sokoaerial.com/infrastructure-inspection/ |
+| Agriculture | https://sokoaerial.com/agriculture/ |
+| Security | https://sokoaerial.com/security/ |
+| Survey & Mapping | https://sokoaerial.com/survey-mapping/ |
+| Architecture, Engineering & Construction | https://sokoaerial.com/architecture-engineering-construction/ |
+| Commercial Aerial Data Unit | https://sokoaerial.com/commercial-aerial-data-unit/ |
+| Unmanned Aerial System Research | https://sokoaerial.com/unmanned-aerial-system-research/ |
+| Education & Training Unit | https://sokoaerial.com/education-training-unit/ |
+| Communication, Engineering & Software | https://sokoaerial.com/communication-engineering-software/ |
+| Gallery | https://sokoaerial.com/gallery/ |
+| Training | https://sokoaerial.com/training/ |
+| Shop | https://sokoaerial.com/shop/ |
+| Contact | https://sokoaerial.com/contact/ |
+
+---
+
+## 10. NOTES FOR CHATBOT IMPLEMENTATION
+
+- This knowledge base reflects content as published on the live site (fetched August 2026). It does not include the Gallery page's image content or the full text of individual blog/news articles beyond headlines and dates.
+- The Shop page currently has no listed products — the bot should say products/shop items are not currently available rather than guessing.
+- No pricing information was found anywhere on the site — the bot should direct pricing inquiries to the Contact page/phone numbers.
+- The FAQ section (Section 8) was generated by rephrasing verified site content into Q&A pairs — it is not copied from an actual FAQ page on the site (none exists), but every answer traces back to facts in Sections 1–7.
+- Team member names/photos were not retrievable — image alt-text on Team Members sections was empty in the extracted content. Do not invent team member names.
