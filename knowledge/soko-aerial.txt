@@ -195,6 +195,12 @@ The Shop page (https://sokoaerial.com/shop/) exists on the site but currently di
 **Q: What is Soko Aerial?**
 A: Soko Aerial is a commercial enterprise established in 2017 that specializes in precision aerial inspections and survey data using Unmanned Aerial Vehicles (UAVs/drones). It collects, processes, analyzes, and distributes aerial data to suit clients' needs across various industries. Its tagline is "Aerial Imaging In Africa."
 
+**Q: What does the name "Soko" mean in Soko Aerial?**
+A: "Soko" is a Swahili word that translates to "a marketplace" or "a place of trade." In the context of Soko Aerial, the name reflects the company's vision of creating a central hub or marketplace that connects top talent, advanced drone technology, and professional aerial solutions with diverse industry needs.
+
+**Q: Do you offer internship programs at Soko Aerial?**
+A: No, Soko Aerial does not offer internship programs at this time.
+
 **Q: Where is Soko Aerial located?**
 A: Supply Bus Stop, Burma Camp, Accra, Ghana.
 
