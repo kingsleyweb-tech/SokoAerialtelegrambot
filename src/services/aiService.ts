@@ -42,17 +42,18 @@ ${knowledge}
             content: question
           }
         ],
-        max_tokens: 1024 // Max response length 
+        max_tokens: 1024 
       },
       {
         headers: {
           Authorization: `Bearer ${API_TOKEN}`,
           "Content-Type": "application/json"
-        }
+        },
+        timeout: 25000
       }
     );
 
-    return response.data.result.response; // Extract the AI's text answer
+    return response.data.result.response; 
 
   } catch (error) {
     console.error("AI Error:", error);

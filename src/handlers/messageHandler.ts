@@ -3,26 +3,21 @@ import { generateAIResponse } from "../services/aiService.js";
 
 export function handleMessages(bot: TelegramBot) {
   bot.on("message", async (msg) => {
-    const chatId = msg.chat.id; // Unique ID of the chat/user
-    const text = msg.text; // The message text the user sent
+    const chatId = msg.chat.id;
+    const text = msg.text; 
+    let typingInterval: NodeJS.Timeout | undefined;
 
     if (!text) return;
 
     try {
-      // Show "typing..." 
       await bot.sendChatAction(chatId, "typing");
 
-      // Keep refreshing the typing indicator every 4 seconds
-      const typingInterval = setInterval(async () => {
+      typingInterval = setInterval(async () => {
         try {
           await bot.sendChatAction(chatId, "typing");
         } catch {}
       }, 4000);
-
-      // Send the user's question to the AI and wait for a response
       const responseText = await generateAIResponse(text);
-
-      clearInterval(typingInterval); 
 
       await bot.sendMessage(chatId, responseText); // Send AI's answer back
     } catch (error) {
@@ -31,6 +26,10 @@ export function handleMessages(bot: TelegramBot) {
         chatId,
         "Sorry, I encountered an error processing your request.",
       );
+    } finally {
+      if (typingInterval) {
+        clearInterval(typingInterval);
+      }
     }
   });
 }

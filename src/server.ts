@@ -1,20 +1,23 @@
 import express, { type Request, type Response } from 'express';
 import dotenv from 'dotenv';
-import './bot.js'; 
+import bot from './bot.js'; 
 
 dotenv.config(); 
 
 const app = express(); //Create a new Express application and store it in a variable called app so we can build and run our web server
 const PORT = process.env.PORT || 3000;
+const webhookPath = `/telegram/${process.env.TELEGRAM_BOT_TOKEN}`;
+const webhookBaseUrl =
+  process.env.WEBHOOK_URL ||
+  process.env.RENDER_EXTERNAL_URL ||
+  process.env.RENDER_EXTERNAL_HOSTNAME;
 
-app.use(express.json()); // Parse incoming JSON requests
+app.use(express.json());
 
-// Root landing page
 app.get('/', (req: Request, res: Response) => {
   res.status(200).send("<h1>Soko Aerial Telegram Bot is active and running!</h1><p>Visit <a href='/health'>/health</a> for the system status check.</p>");
 });
 
-// Health check endpoint — hosting platforms use this to verify the app is alive
 app.get('/health', (req: Request, res: Response) => {
   res.status(200).json({
     status: 'OK',
@@ -22,7 +25,26 @@ app.get('/health', (req: Request, res: Response) => {
   });
 });
 
-// Start the server
+app.post(webhookPath, (req: Request, res: Response) => {
+  res.sendStatus(200);
+  bot.processUpdate(req.body);
+});
+
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
+
+  if (process.env.NODE_ENV === "production" && webhookBaseUrl) {
+    const normalizedBaseUrl = webhookBaseUrl.startsWith("http")
+      ? webhookBaseUrl
+      : `https://${webhookBaseUrl}`;
+
+    bot
+      .setWebHook(`${normalizedBaseUrl}${webhookPath}`)
+      .then(() => {
+        console.log(`Telegram webhook set to ${normalizedBaseUrl}/telegram/[token]`);
+      })
+      .catch((error) => {
+        console.error("Failed to set Telegram webhook:", error);
+      });
+  }
 });

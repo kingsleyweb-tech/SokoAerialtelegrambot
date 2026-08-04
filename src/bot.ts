@@ -12,13 +12,25 @@ if (!token) {
   );
 }
 
-// Create bot instance with polling (continuously checks Telegram for new messages)
-const bot = new TelegramBot(token, {
-  polling: true,
-});
+const usePolling = process.env.NODE_ENV !== "production";
 
-handleMessages(bot); // Start listening for user messages
+const bot = new TelegramBot(token, { polling: false });
 
-console.log("Telegram bot is running...");
+handleMessages(bot); 
+
+if (usePolling) {
+  bot
+    .deleteWebHook()
+    .then(() => bot.startPolling())
+    .catch((error) => {
+      console.error("Failed to start Telegram polling:", error);
+    });
+}
+
+console.log(
+  usePolling
+    ? "Telegram bot is running with polling..."
+    : "Telegram bot is running with webhooks...",
+);
 
 export default bot;
