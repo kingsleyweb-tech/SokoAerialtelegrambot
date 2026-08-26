@@ -2,6 +2,8 @@ import axios from "axios";
 import dotenv from "dotenv";
 import { getKnowledgeBase } from "./knowledgeService.js";
 
+import { SessionMessage } from "./sessionService.js";
+
 dotenv.config();
 
 const ACCOUNT_ID = process.env.CLOUDFLARE_ACCOUNT_ID;
@@ -12,21 +14,17 @@ if (!ACCOUNT_ID || !API_TOKEN) {
 }
 
 export async function generateAIResponse(
-  question: string
+  question: string,
+  history: SessionMessage[] = []
 ): Promise<string> {
   const knowledge = getKnowledgeBase();
 
   try {
-    // Send request to Cloudflare Workers AI (LLaMA 3.1 8B model)
-    const response = await axios.post(
-      `https://api.cloudflare.com/client/v4/accounts/${ACCOUNT_ID}/ai/run/@cf/meta/llama-3.1-8b-instruct`,
+    // Construct the messages sequence including system instructions, prior turns, and the new query
+    const messages = [
       {
-        messages: [
-          {
-            role: "system",
-            content:
-`
-You are a helpful assistant for Soko Aerial.
+        role: "system",
+        content: `You are a helpful assistant for Soko Aerial.
 
 Answer questions only using the information below.
 
@@ -34,14 +32,23 @@ If the answer is not available, say you do not have that information.
 
 Knowledge Base:
 
-${knowledge}
-`
-          },
-          {
-            role: "user", 
-            content: question
-          }
-        ],
+${knowledge}`
+      },
+      ...history.map((msg) => ({
+        role: msg.role,
+        content: msg.content
+      })),
+      {
+        role: "user",
+        content: question
+      }
+    ];
+
+    // Send request to Cloudflare Workers AI (LLaMA 3.1 8B model)
+    const response = await axios.post(
+      `https://api.cloudflare.com/client/v4/accounts/${ACCOUNT_ID}/ai/run/@cf/meta/llama-3.1-8b-instruct`,
+      {
+        messages,
         max_tokens: 1024 
       },
       {
