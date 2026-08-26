@@ -9,6 +9,7 @@ const PORT = process.env.PORT || 3000;
 const webhookPath = `/telegram/${process.env.TELEGRAM_BOT_TOKEN}`;
 const webhookBaseUrl =
   process.env.WEBHOOK_URL ||
+  process.env.VERCEL_URL ||
   process.env.RENDER_EXTERNAL_URL ||
   process.env.RENDER_EXTERNAL_HOSTNAME;
 
@@ -30,21 +31,41 @@ app.post(webhookPath, (req: Request, res: Response) => {
   bot.processUpdate(req.body);
 });
 
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-
-  if (process.env.NODE_ENV === "production" && webhookBaseUrl) {
-    const normalizedBaseUrl = webhookBaseUrl.startsWith("http")
-      ? webhookBaseUrl
-      : `https://${webhookBaseUrl}`;
-
-    bot
-      .setWebHook(`${normalizedBaseUrl}${webhookPath}`)
-      .then(() => {
-        console.log(`Telegram webhook set to ${normalizedBaseUrl}/telegram/[token]`);
-      })
-      .catch((error) => {
-        console.error("Failed to set Telegram webhook:", error);
-      });
+app.get('/setup-webhook', async (req: Request, res: Response) => {
+  try {
+    if (webhookBaseUrl) {
+      const normalizedBaseUrl = webhookBaseUrl.startsWith("http")
+        ? webhookBaseUrl
+        : `https://${webhookBaseUrl}`;
+      await bot.setWebHook(`${normalizedBaseUrl}${webhookPath}`);
+      res.status(200).send(`Webhook successfully set to ${normalizedBaseUrl}${webhookPath}`);
+    } else {
+      res.status(400).send("Webhook URL not configured.");
+    }
+  } catch (error: any) {
+    res.status(500).send(`Failed to set webhook: ${error.message}`);
   }
 });
+
+if (!process.env.VERCEL) {
+  app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+
+    if (process.env.NODE_ENV === "production" && webhookBaseUrl) {
+      const normalizedBaseUrl = webhookBaseUrl.startsWith("http")
+        ? webhookBaseUrl
+        : `https://${webhookBaseUrl}`;
+
+      bot
+        .setWebHook(`${normalizedBaseUrl}${webhookPath}`)
+        .then(() => {
+          console.log(`Telegram webhook set to ${normalizedBaseUrl}/telegram/[token]`);
+        })
+        .catch((error) => {
+          console.error("Failed to set Telegram webhook:", error);
+        });
+    }
+  });
+}
+
+export default app;
