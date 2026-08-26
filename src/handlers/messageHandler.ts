@@ -157,7 +157,7 @@ Select an option below:`;
           const registerResponse = `✍️ *Register for Drone Training*
 
 You can register for drone piloting, data processing, and GIS mapping courses through our online portal:
-🔗 [Training Registration Form](https://bit.ly/sokoaerial)
+🔗 [Training Registration Form](https://edu.sokoaerial.com/login/signup.php)
 
 Alternatively, feel free to visit our center at *Supply Bus Stop, Burma Camp, Accra* or call us at:
 • +233 30 277 6296
