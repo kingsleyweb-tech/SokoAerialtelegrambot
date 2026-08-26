@@ -216,6 +216,19 @@ A: AHUODEN is a high-altitude surveillance drone developed by the Unmanned Aeria
 **Q: How do I register for drone training at CUAVRE?**
 A: You can sign up online at the official portal: https://edu.sokoaerial.com/login/signup.php.
 
+**Q: Does Soko Aerial accept interns?**
+A: Yes! Soko Aerial accepts interns. If you are interested, bring or submit your internship letter to Soko Aerial's office at Supply Bus Stop, Burma Camp, Accra, Ghana. Once your letter has been reviewed and accepted, you will be communicated to with next steps. Interns have the opportunity to learn and work in areas such as drone technology, software development, and backend development.
+
+**Q: What areas can interns learn at Soko Aerial?**
+A: Interns at Soko Aerial can gain hands-on experience in the following areas:
+- Drone Technology (UAV operations, piloting, data acquisition)
+- Software Development
+- Backend Development
+The specific area will depend on the department and availability at the time of your application.
+
+**Q: How does the internship application process work at Soko Aerial?**
+A: You should come in person to Soko Aerial's office with your internship letter (from your school or institution). Your letter will be reviewed, and you will be communicated to (contacted) once it has been accepted. From there, you will receive further guidance on when and how to begin your internship.
+
 ---
 
 ## 9. QUICK-REFERENCE SITE MAP
@@ -237,7 +250,27 @@ A: You can sign up online at the official portal: https://edu.sokoaerial.com/log
 
 ---
 
-## 10. NOTES FOR CHATBOT IMPLEMENTATION
+## 10. INTERNSHIP PROGRAM
+
+Soko Aerial welcomes interns who wish to learn and develop skills in drone technology and software engineering.
+
+**How to Apply:**
+- Come to the Soko Aerial office in person with your internship letter (provided by your school or institution).
+- Location: Supply Bus Stop, Burma Camp, Accra, Ghana.
+- Your letter will be reviewed by the team.
+- Once your letter is accepted, you will be communicated to (contacted) with the next steps and your start details.
+
+**Areas Interns Can Learn:**
+- Drone Technology — UAV operations, piloting, data acquisition, drone maintenance
+- Software Development — application and system software
+- Backend Development — server-side engineering and systems
+
+There is no online internship application form listed. Applicants are expected to present their letters in person at the office.
+
+---
+
+## 11. NOTES FOR CHATBOT IMPLEMENTATION
 - Direct all training registrations directly to: https://edu.sokoaerial.com/login/signup.php.
 - Explain the objectives of CUAVRE training programs: Safety, Solution, Operation, Maintenance, and Mission.
 - Always retrieve detailed facts from the departments (CADU, UASRL, ENTU, CESU) or services sections when answering queries.
+- For internship questions: Soko Aerial accepts interns who bring their letter in person. They are notified once accepted and can learn drone technology, software development, or backend development.

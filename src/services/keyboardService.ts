@@ -63,7 +63,8 @@ export const CONTACT_KEYBOARD = {
       { text: "☎️ Phone & Web", callback_data: "prompt:phone" }
     ],
     [
-      { text: "🔗 Social Media", callback_data: "prompt:social" }
+      { text: "🔗 Social Media", callback_data: "prompt:social" },
+      { text: "🎓 Internship", callback_data: "prompt:internship" }
     ],
     [
       { text: "🏠 Main Menu", callback_data: "menu:main" }
@@ -119,9 +120,24 @@ export const CONTACT_FOLLOWUP_KEYBOARD = {
       { text: "☎️ Phone & Web", callback_data: "prompt:phone" }
     ],
     [
-      { text: "🔗 Social Media", callback_data: "prompt:social" }
+      { text: "🔗 Social Media", callback_data: "prompt:social" },
+      { text: "🎓 Internship", callback_data: "prompt:internship" }
     ],
     [
+      { text: "🏠 Main Menu", callback_data: "menu:main" }
+    ]
+  ]
+};
+
+// Internship Follow-up Keyboard
+export const INTERNSHIP_FOLLOWUP_KEYBOARD = {
+  inline_keyboard: [
+    [
+      { text: "📍 Our Location", callback_data: "prompt:location" },
+      { text: "☎️ Contact Us", callback_data: "prompt:phone" }
+    ],
+    [
+      { text: "🎓 Drone Training", callback_data: "menu:training" },
       { text: "🏠 Main Menu", callback_data: "menu:main" }
     ]
   ]
@@ -173,6 +189,8 @@ export function getKeyboardForTopic(topic?: string): any {
       return RESEARCH_FOLLOWUP_KEYBOARD;
     case "contact":
       return CONTACT_FOLLOWUP_KEYBOARD;
+    case "internship":
+      return INTERNSHIP_FOLLOWUP_KEYBOARD;
     default:
       return GENERAL_FOLLOWUP_KEYBOARD;
   }
@@ -192,6 +210,7 @@ export const PROMPT_MAPPINGS: Record<string, string> = {
   location: "Where is Soko Aerial located and what are their contact details?",
   phone: "What are Soko Aerial's phone numbers and official website?",
   social: "What are Soko Aerial's social media handles and channels?",
+  internship: "Does Soko Aerial accept interns? How does the internship application process work and what areas can interns learn?",
   explain_further: "Can you explain that in more detail?",
   give_example: "Can you give me a specific example or case study from the knowledge base related to that?"
 };

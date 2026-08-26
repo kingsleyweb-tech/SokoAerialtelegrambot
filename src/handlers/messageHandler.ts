@@ -150,6 +150,7 @@ Select an option below:`;
           else if (["mining", "aec", "agriculture", "disaster"].includes(promptKey)) topic = "services";
           else if (["ahuoden", "tracking"].includes(promptKey)) topic = "research";
           else if (["location", "phone", "social"].includes(promptKey)) topic = "contact";
+          else if (["internship"].includes(promptKey)) topic = "internship";
         }
 
         // Return a direct response for the registration form to improve responsiveness
@@ -295,6 +296,12 @@ Would you like to know more?`;
           normalizedText.includes("contact")
         ) {
           topic = "contact";
+        } else if (
+          normalizedText.includes("intern") ||
+          normalizedText.includes("internship") ||
+          normalizedText.includes("attachment")
+        ) {
+          topic = "internship";
         }
       }
 
